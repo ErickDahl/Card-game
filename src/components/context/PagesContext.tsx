@@ -50,7 +50,7 @@ const PageContextProvider = (props: ContextProps) => {
           image: shibe,
           name: `Doggo Shibe ${i + 1}`,
           value: Math.round(Math.random() * 10),
-          description: `shibe ${i}`,
+          description: `shibe ${i + 1}`,
         };
         array.push(shibiObject);
       });
