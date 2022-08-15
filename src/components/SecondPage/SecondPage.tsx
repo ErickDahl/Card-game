@@ -9,7 +9,7 @@ const SecondPage = () => {
   const othersShibes = shibes.slice(5, 8);
 
   useEffect(() => {
-    setShibesToShow(shibes.slice(0, 4));
+    setShibesToShow(shibes.slice(0, 5));
   }, [shibes]);
 
   const AddShibes = () => {
@@ -34,6 +34,10 @@ const SecondPage = () => {
     }
     return newArray;
   };
+
+  console.log(shibes);
+  console.log(shibesToShow);
+  console.log(othersShibes);
 
   return (
     <div className="contentSecondPage">
