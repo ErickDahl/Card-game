@@ -1,0 +1,87 @@
+.contentSecondPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.topSecondPage {
+  display: flex;
+  align-items: center;
+}
+
+.personName,
+.title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 90%;
+}
+
+.title {
+  position: relative;
+  left: 6%;
+}
+
+.personName {
+  width: 10%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 10px;
+}
+
+.shuffleShibes,
+.addShibe {
+  color: #ffffff;
+  cursor: pointer;
+  background: #282c34;
+  height: 46px;
+  border: 2px solid #282c34;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 230px;
+}
+
+.addShibe:disabled {
+  background: #808080;
+  border: 2px solid #808080;
+  cursor: default;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 20px;
+  gap: 5px;
+}
+
+.cardImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.cardDescription,
+.cardValue,
+.cardText {
+  font-family: "Roboto", sans-serif;
+}
+
+.cardText {
+  font-weight: 600;
+}
