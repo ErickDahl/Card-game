@@ -35,10 +35,6 @@ const SecondPage = () => {
     return newArray;
   };
 
-  console.log(shibes);
-  console.log(shibesToShow);
-  console.log(othersShibes);
-
   return (
     <div className="contentSecondPage">
       <div className="topSecondPage">
