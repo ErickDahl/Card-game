@@ -48,7 +48,7 @@ const PageContextProvider = (props: ContextProps) => {
       maxShibes.forEach((shibe, i) => {
         const shibiObject = {
           image: shibe,
-          name: `Dogo Shibe ${i + 1}`,
+          name: `Doggo Shibe ${i + 1}`,
           value: Math.round(Math.random() * 10),
           description: `shibe ${i}`,
         };
