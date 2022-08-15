@@ -1,6 +1,6 @@
 ### `npm i ou yarn`
 
-Para baixar as dependencias do projeto necessários para rodar.
+Para baixar as dependencias necessárias para rodar o projeto.
 
 ### `npm start`
 
